@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.about {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.about-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.about-content h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  line-height: 1.6;
+}
+
+.about-image {
+  flex: 1;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.navigation a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;  
+}
+
+.navigation a:hover:after {
+    transform-origin: left;
+    transform: scale(1);
+}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>About Us</h1>
+  </header>
+  <section class="about">
+    <div class="container">
+      <div class="about-content">
+        <h2>Our Story</h2>
+        <p>We are a team of passionate individuals committed to providing high-quality products and exceptional customer service. Our journey began with a simple idea: to create a brand that offers unique, stylish, and affordable products for every lifestyle.</p>
+        <p>Driven by our mission to exceed customer expectations, we work tirelessly to curate the best selection of products and ensure a seamless shopping experience. Whether you're shopping for yourself or searching for the perfect gift, we're here to help you find exactly what you need.</p>
+      </div>
+      <div class="about-image">
+        <img src="file:///C:/Users/easto/OneDrive/Pictures/91511e8329ea6a1e9291068b9cbfada7.jpg" alt="About Us Image">
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2024 Your E-commerce Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>

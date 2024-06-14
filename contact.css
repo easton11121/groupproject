@@ -1,0 +1,124 @@
+*
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(217, 231, 247);
+
+}
+
+.div1{
+    height: 120px;
+    background-color: rgb(95, 106, 116);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.div1 h3{
+    color: white;
+    font-size: 30px;
+    padding-left: 20px;
+
+}
+.div1 ul li{
+    list-style: none;
+    display: inline;
+}
+.div1 a{
+    text-decoration: none;
+    color: white;
+    padding-right: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.div1 a {
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.div1 a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 70%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;  
+}
+
+.div1 a:hover:after {
+    transform-origin: left;
+    transform: scale(1);
+}
+.ggg{
+    height: 300px;
+    width: 600px;
+    background-color: rgb(95, 106, 116);
+    margin-top: 50px;
+    margin-left: 400px;
+    border-radius: 20px;
+
+}
+table{
+    padding-left: 180px;
+    padding-top:60px;
+}
+ h2{
+    color: white;
+    padding-left: 400px;
+    padding-top: 100px;
+    text-decoration: underline;
+}
+.ggg input{
+    background-color: aqua;
+    border-radius: 10px;
+}
+.ggg button{
+    background-color: blue;
+
+    border-radius: 10px;
+}
+.ggg label{
+    font-weight: bold;
+}
+.div3{
+    height: 120px;
+    background-color:  rgb(95, 106, 116);
+
+}
+.div3 h4{
+    color: white;
+    font-size: 30px;
+    padding-left: 100px;
+}
+
+.div1 img{
+    margin-left: 30px;
+    border-radius: 50%;
+     
+ }
+
+ .div3{
+    height: 120px;
+    background-color: rgb(4, 27, 53);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.fa-square-instagram{
+    font-size: 50px;
+}
+.fa-square-whatsapp{
+    font-size: 50px;
+}
+.fa-square-github{
+    font-size: 50px;
+}
